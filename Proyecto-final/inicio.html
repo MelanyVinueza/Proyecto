@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo fast and grill</title>
+    <link rel=StyleSheet href="css/styles.css">
+    <script>
+        var images = ["imagenes/Neo2.jpg", "imagenes/foto1.png", "imagenes/foto2.png", "imagenes/foto3.png"];
+        var index = 0;
+        function changeImage() {
+          document.getElementById("myImage").src = images[index];
+          index++;
+          if (index == images.length) {
+            index = 0;
+          }
+          setTimeout(changeImage, 2500);
+        }
+      </script>
+</head>
+<body onload="changeImage()">
+    <header>
+        <div class="logo">
+            <img class="logo" src="imagenes/neo.jpg" width="100" height="90" >
+        </div>
+        <nav class="menu1">
+          <ul>
+            <div class="pestana">
+                <a href="inicio.html">INICIO</a><br>
+            </div>
+            <div class="pestana">
+                <a href="productos.html">PRODUCTOS</a><br>
+            </div>
+          </ul>
+        </nav>
+      </header>
+      <main>
+      <div class="principal">
+        <div class="descripcion">
+          <div class="descripcion_titulo">
+            <center><img id="myImage" src="imagenes/Neo2.jpg" width="1100" height="700"></center>
+          </div>
+        </div>
+      </div>
+      <div class="intro">
+        <p style="width: 400px;">
+          <br><h1>El placer de comer con las manos...!!!</h1><br>
+          <center><p style="width: 600px;">
+            ¡No te quedes con las ganas de nuestras deliciosas alitas! Ahora puedes
+           disfrutar de nuestros combos de alitas directamente en la comodidad de tu hogar.
+           Ordena nuestros combos irresistibles y prepárate para una explosión de sabores en cada bocado
+          </p></center><br>
+        </p>
+      </div>
+
+      <div class="container2">
+        <section class="imagenes"></section> 
+        <div class="box">
+       <img src="imagenes/coctel.png" width="600" height="600">
+         </div>
+        </section>
+        <div id="Reserva">
+          <center><h1>Reserva una mesa</h1><br></center>
+          <p style="width: 800px;"> 
+            Completa la información para que podemos reservar la mejor mesa
+            para ti
+          </p>
+          <div class="Formulario">
+            <center><form action="https://formsubmit.co/mavinueza10@espe.edu.ec" method="post"><!--Aqui se guardara la informacion del formulario-->
+                <div class="Container3">
+                  <label for="nombre">Nombre y Apllido:</label><br>
+                  <input type="text" id="nombre" name="nombre"><br>
+              
+                  <label for="grupo">Tamaño del grupo:</label><br>
+                  <input type="text" id="grupo" name="grupo"><br>
+                   
+                  <label for="email">Correo electrónico</label><br>
+                  <input type="email" name="email" id="email"><br>
+              
+                  <label for="fecha">Fecha:</label><br>
+                  <input type="date" id="fecha" name="fecha"><br>
+              
+                  <label for="hora">Horario:</label><br>
+                  <input type="time" id="hora" name="hora"><br>
+              
+                  <input type="submit" value="Enviar">
+                </div>
+            </form></center>
+        </div>
+      </div>
+    </div>
+      <div class="ubicacion">
+        <div class="InformacionUbi">
+        <p style="width: 400px;">
+          <br><h1>VÍSITANOS</h1><br>
+          <center><p style="width: 600px;">
+            <h2>Dirección</h2>
+            Sector solanda, calle J esquina, diagonal al Gran AKI de Solanda
+          </p></center><br>
+          <center><p style="width: 600px;">
+            <h2>Horarios de atención</h2>
+            Lunes - Domingo: 11:00 a 23:00
+          </p></center><br>
+        </p>
+      </div>
+      </div>
+    </main>
+        <footer>
+    <section class="contactos">
+            <ul>
+            <li><a href="#"><img src="imagenes/whts.png" width="40" height="40"></a>0983817233</li>
+            <li><a href="https://www.facebook.com/NEOFASTANDGRILL"><img src="imagenes/fb2.png" width="40" height="40"></a>NEOFASTANDGRILL</li>
+            <li><a img src="imagenes/inst (2).png" width="40" height="40" href="https://www.instagram.com/neofastandgrill/"><img src="imagenes/inst (2).png" width="40" height="40"></a> NEO FAST AND GRILL</li>
+          </ul>     
+    </section>     
+        </footer>
+</body>
+</html>

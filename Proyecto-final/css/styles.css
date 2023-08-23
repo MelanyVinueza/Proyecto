@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #290404;
+  font-weight: bold;
+ 
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 0.7fr 10fr 1fr;
+  height: 100px;
+}
+header nav a:hover{
+  background: rgba(253, 13, 13, 0.521);
+  color: #ffffff;
+  border-radius: 75px;
+}
+header ul{
+  margin: 0;
+  padding: 0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        list-style:none;
+        font-size:20px;
+        font-family:sans-serif;
+        text-transform:uppercase;
+        letter-spacing:2px;
+}
+    .pestana{
+        margin-right:30px;
+    }
+    .pestana a{
+        color:#fff;
+        text-decoration:none;
+    }
+    .pestana a:hover{
+        color:#f1f1f1;
+    }
+    .logo img{
+        margin-left:30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu2{
+        margin-left:auto;
+    }
+    .menu2 li{
+        display:inline-block;
+        margin-left:30px;
+
+    }
+    .menu2 li a{
+        color:#fff;
+        text-decoration:none;
+
+    }
+
+.menu1 {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  justify-content: flex-start;
+  font-size: 1rem;
+}
+
+.menu2 {
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1rem;
+}
+.intro{
+    color: #1f0303;
+    background-color: #fdd8b5;
+    text-align: center;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    font-size: 30px;
+}
+.InformacionUbi{
+    color: #ffffff;
+    background-image: url("../imagenes/fondoFlores.png");
+    text-align: center;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+  display: flex;
+  padding: 40px;
+  align-items: center; 
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 80%;
+  color: #f1f1f1;
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  font-size: 30px;
+}
+
+#Reserva{
+  background-color: #fdd8b5;
+  color: #1f0303;
+  align-items: center; 
+}
+.container2 {
+  display: flex;
+  padding: 40px;
+  align-items: center; 
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 80%;
+  color: #f1f1f1;
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"], input[type="date"], input[type="time"], input[type="email"] {
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+input[type="submit"] {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  font-size: 15px;
+}
+
+
+footer{
+  display: grid;
+  padding-bottom: 20px;
+  background-color: #000000;
+}
+
+footer li{
+  color: #ffffff;
+  list-style: none;
+  margin-top: 15px;
+  padding-right: 2px;  
+  font-size: 15px;
+}
+
+.contactos{
+  color: #f1f1f1;
+  text-align: center;
+  list-style: none;
+}
+
+
+
+

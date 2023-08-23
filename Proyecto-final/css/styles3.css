@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Quicksand", sans-serif;
+    background-image: url('../imagenes/fondoneo.png');
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 0.7fr 10fr 1fr;
+    height: 100px;
+  }
+  header nav a:hover{
+    background: rgba(253, 13, 13, 0.521);
+    color: #ffffff;
+    border-radius: 75px;
+  }
+  header ul{
+    margin: 0;
+    padding: 0;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          list-style:none;
+          font-size:20px;
+          font-family:sans-serif;
+          text-transform:uppercase;
+          letter-spacing:2px;
+  }
+      .pestana{
+          margin-right:30px;
+      }
+      .pestana a{
+          color:#fff;
+          text-decoration:none;
+      }
+      .pestana a:hover{
+          color:#f1f1f1;
+      }
+      .logo img{
+          margin-left:30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .menu2{
+          margin-left:auto;
+      }
+      .menu2 li{
+          display:inline-block;
+          margin-left:30px;
+  
+      }
+      .menu2 li a{
+          color:#fff;
+          text-decoration:none;
+  
+      }
+  
+  .menu1 {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    justify-content: flex-start;
+    font-size: 1rem;
+  }
+  
+  .menu2 {
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 1rem;
+  }
+  
